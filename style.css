@@ -1,0 +1,41 @@
+body
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    margin: auto;
+}
+header
+{
+    border: solid black 2px;
+    text-align: center;
+    grid-column: 1/3 ;
+}
+
+h1
+{
+    font-size: calc(1.5rem + 3wv);
+}
+article
+{
+    border: solid black 2px;
+    justify-content: space-around;
+}
+h2
+{
+    text-align: center;
+    font-size: calc(0.5rem + 3wv)
+}
+footer
+{
+    border: solid black 2px;
+    text-align: center;
+}
+
+aside
+{
+    border: solid black 2px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
